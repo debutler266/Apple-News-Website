@@ -148,5 +148,16 @@ ul {
 
 .arcade .content {
   width: 40%; /* keeps content closer to left & contained to one side */
-  padding:
+  padding: 50px 0 0 30px;
+}
+
+.arcade h2 {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.arcade p {
+  margin: 10px 0 20px;
+  color: #ffffff;
 }
