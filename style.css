@@ -83,7 +83,7 @@ ul {
 .showcase {
   width: 100%;
   height: 400px;
-  background: url('img/apple.jpg') no-repeat center center/cover;
+  background: url('img/apple.jpg') no-repeat center center/cover; /*background repeat property, background postion, & background size */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -144,6 +144,7 @@ ul {
   height: 350px;
   width: 100%;
   background: url('img/arcade.jpg') no-repeat center center/cover;
+  margin-bottom: 20px;
 }
 
 .arcade .content {
@@ -151,13 +152,26 @@ ul {
   padding: 50px 0 0 30px;
 }
 
-.arcade h2 {
+.arcade h2, .carbon h2 {
   color: #ffffff;
   text-decoration: underline;
   font-weight: 800;
 }
 
-.arcade p {
+.arcade p, .carbon p {
   margin: 10px 0 20px;
   color: #ffffff;
+}
+
+/* Carbon Section */
+
+.carbon {
+  width: 100%;
+  height: 350px;
+  background: url('img/carbon.jpg') no-repeat center center/cover; /*background repeat property, background postion, & background size */
+}
+
+.carbon .content {
+  width: 55%;
+  padding: 100px 0 0 30px;
 }
